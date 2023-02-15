@@ -1,6 +1,6 @@
 config BR2_PACKAGE_SYSID101
   bool "sysid101"
-  depends on BR2_PACKAGE_GTKIOSTREAM
+  select BR2_PACKAGE_GTKIOSTREAM
   help
     This is the sysid101 from flatmax.
 
